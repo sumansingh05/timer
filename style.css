@@ -49,14 +49,23 @@ body{
     border: none;
     color: white;
     font-size: 1rem;
+    cursor: pointer;
 }
 .start{
-    background-color: blue;
-    
+    background-color: blue;    
+}
+.start:hover{
+    transform: scale(1.2);    
 }
 .stop{
     background-color: red;
 }
+.stop:hover{
+    transform: scale(1.2);    
+}
 .reset{
     background-color: green;
+}
+.reset:hover{
+    transform: scale(1.2);    
 }
