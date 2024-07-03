@@ -69,3 +69,22 @@ body{
 .reset:hover{
     transform: scale(1.2);    
 }
+@media(max-width:500px){
+    .container{
+        width: 80%;
+    }
+    .container h2{
+        padding: 10px;
+        font-size: 2rem;
+    }
+    .timer{
+        font-size: 46px;
+    }
+    .btn-box{
+        padding-bottom: 20px;
+    }
+    .container button{
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+}
